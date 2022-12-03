@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	long n,i;
+
+	clrscr();
+
+	printf("Enter a digit : ");
+	scanf("%ld",&n);
+
+	printf("\nreverce digits of given nomber : ");
+
+	while(n!=0)
+	{
+		i=n%10;
+		printf("%ld",i);
+		n=n/10;
+	}
+
+
+	getch();
+}

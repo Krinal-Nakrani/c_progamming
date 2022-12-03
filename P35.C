@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i,sum=0;
+
+	clrscr();
+
+	while(i<=50)
+	{
+	       if(i%2=0)
+	       {
+		sum=sum+i;
+	       }
+	       i++;
+	}
+	printf("\nsum of even nombers 1 to 50 = %d ",sum);
+
+	getch();
+}

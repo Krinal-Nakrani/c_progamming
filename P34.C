@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i=1,sum=0;
+
+	clrscr();
+
+	while(i<=100)
+	{
+		sum=sum+i;
+		i++;
+	}
+	printf("\nsum of 1 to 100 = %d ",sum);
+
+	getch();
+}
